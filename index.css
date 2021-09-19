@@ -1,0 +1,144 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+    background: #535657 !important;
+    
+    
+}
+.user_card {
+    height:400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #79383815;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-bottom: 60px;
+
+}
+
+@media screen and (min-width: 601px) {
+    .carelive{
+      font-size: 65px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carelive{
+      font-size: 40px;
+    }
+  }
+
+
+.login_btn {
+    width: 100%;
+    background:rgb(143, 27, 27)!important;
+    color: white !important;
+}
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background:rgb(143, 27, 27)!important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background:rgb(143, 27, 27) !important;
+}
+
+.main{
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: -140px;
+    
+}
+
+.heading{
+    background:rgb(143, 27, 27);
+    font-size:5vw;
+    height: 20vh;
+    text-shadow: 2px 2px 2px black;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 6vh;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: relative;
+}
+
+.bottom-text{
+    color: white;
+}
+
+.signup{
+    color:white;
+    text-decoration-line: underline;
+    
+}
+
+.forget{
+    color:white;
+    text-decoration-line: underline;
+}
+
+.signup:hover{
+    color:aquamarine;
+}
+
+.forget:hover{
+    color: aquamarine;
+}
+
+.remember{
+    color: white;
+}
+
+
+.footer {
+    color: white;
+    text-align:center;
+    margin-top: 140px;
+    height: 80px;
+    padding-top: 30px;
+    position:absolute;
+    width: 100%;
+   }
+   .footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999
+   }
+   .footer p a {
+    color:#ffffff
+   }
+   .footer p a:hover {
+    color:#34bfa3
+   }
+
+   /* .carelive{
+    font-size:50px;
+} */
+

@@ -1,0 +1,90 @@
+.heading{
+    background:rgb(143, 27, 27);
+    height: 20vh;
+    text-shadow: 2px 2px 2px black;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4vh;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: relative;
+    
+}
+
+@media screen and (min-width: 601px) {
+    .carelive{
+      font-size: 65px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carelive{
+      font-size: 40px;
+    }
+  }
+
+
+
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #535657 !important;
+    margin-bottom: 0;
+    
+}
+
+.card-deck{
+    height: 300px;
+    
+}
+
+.btns{
+    
+    font-weight: bold;
+    background-color: rgb(143, 27, 27);
+    color: rgb(219, 212, 212);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(109, 103, 103);
+    height: auto;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+
+}
+
+
+.card{
+   box-shadow: 1px 1px 1px 1px rgb(54, 49, 49);
+}
+
+
+
+
+.footer {
+    color: white;
+    text-align:center;
+    margin-top: 300px;
+    height: 80px;
+    padding-top: 30px;
+    position:absolute;
+    width: 100%;
+   }
+   .footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999
+   }
+   .footer p a {
+    color:#ffffff
+   }
+   .footer p a:hover {
+    color:#34bfa3
+   }
+   

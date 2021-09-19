@@ -1,0 +1,105 @@
+.heading{
+    background:rgb(143, 27, 27);
+    font-size:5vw;
+    height: 20vh;
+    text-shadow: 2px 2px 2px black;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4vh;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    position: relative;
+    
+}
+
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #535657 !important;
+    
+}
+
+.card{
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.card-body{
+    background-color:#535657;
+    color: white;
+    border-style: none;
+    box-shadow: 2px 7px 8px 7px #444343;
+    /* -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 5px;
+    
+}
+
+.card-header{
+    font-weight:500;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.add-btn{
+    background-color: rgb(143, 27, 27);
+    color: white;
+    border-width: 3px;
+    border: #535657;
+    border-style: solid;
+    border-radius: 2px;
+    height: 50px;
+     width: 150px; 
+    box-shadow: 1px 1px 1px rgb(88, 86, 86);
+}
+
+.navbar{
+    background-color:rgb(151, 163, 159) ;
+}
+
+
+.footer {
+    color: white;
+    text-align:center;
+    margin-top: 140px;
+    height: 80px;
+    padding-top: 30px;
+    position:absolute;
+    width: 100%;
+   }
+   .footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999
+   }
+   .footer p a {
+    color:#ffffff
+   }
+   .footer p a:hover {
+    color:#34bfa3
+   }
+
+
+   @media screen and (min-width: 601px) {
+    .carelive{
+      font-size: 65px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .carelive{
+      font-size: 40px;
+    }
+  }
+
+   
